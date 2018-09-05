@@ -10,7 +10,7 @@ var requestHandler = function(request, response) {
   var parsedUrl = url.parse(request.url);
 
   /*
-    Your request handler should send listingData in the JSON format if a GET request 
+    Your request handler should send listingData in the JSON format if a GET request TEST
     is sent to the '/listings' path. Otherwise, it should send a 404 error. 
 
     HINT: explore the request object and its properties 
